@@ -3,7 +3,9 @@ const mongoose = require('mongoose')
 const User = require('./model')
 const Userrotuer = require('./routes/routes')(User)
 
-const url = 'mongodb+srv://Darko:gospel333@cluster0.xbklg.mongodb.net/zuri?retryWrites=true&w=majority'
+
+//Hey It works fine 😊 u can chk the live link 
+const url = 'mongodb+srv://<username>:<password>@cluster0.xbklg.mongodb.net/zuri?retryWrites=true&w=majority'
 //connect to db
 
 mongoose.connect(url,  { useUnifiedTopology: true,  useNewUrlParser: true })
